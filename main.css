@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    background-color: #000;
+    color:orangered;
+}
+h1{
+    background-color: rgb(21, 21, 21);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:darkmagenta;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+span{
+    color:yellow;
+    background-color: rgb(21, 21, 21);
+
+}
+.end{
+    height: 500px;
+    background-image: url(likes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.end h3{
+    font-family: "Oswald";
+    font-size: 1.8rem;
+}
+.end  h4{
+    margin-top: 1.5%;
+    margin-left: 50%;
+    font-family: "Teko";
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+}
+.col{
+    color: black;
+}
+
+.end h5{
+    margin-top: 10%;
+    margin-left: 90%;
+    font-family:Bebas Neue ;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+.end h5:hover{
+    cursor: pointer;
+}
+.newanc {
+    color: blue;
+}
+@media all and (max-width:675px){
+    .end{
+        height: 600px;
+    }
+    .end h3{
+        font-size: 1.2rem;
+    }
+    .end h4{
+        font-size: 1rem;
+        margin-left: 75%;
+    }
+    .end h5 {
+        margin-top: 65%;
+        margin-left: 0%;
+        font-size: 1rem;
+    }
+}
