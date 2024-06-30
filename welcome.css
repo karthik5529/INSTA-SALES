@@ -88,6 +88,10 @@ button{
     color: black;
     margin-top: -10px;
 }
+button:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+}
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -100,8 +104,15 @@ button{
   
   
 @media all and (max-width:500px){
+    .top{
+        height: 650px;
+    }
 
     h1{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-top: -5%;
         padding-bottom: 5%;
         font-size: 25px;
