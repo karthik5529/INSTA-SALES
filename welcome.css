@@ -8,12 +8,11 @@
 }
 .top{
     background-color: #000;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 h1{
     background-color: rgb(21, 21, 21);
     padding-top: 2%;
-    padding-left: 40%;
     padding-bottom: 2%;
     color:darkmagenta;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +70,8 @@ button{
     text-transform: uppercase;
 }
 .end{
-
+    margin-top: 0;
+    padding-top: 10px;
     background-color: orange;
     height: 300px;
 }
@@ -100,25 +100,23 @@ button{
   
   
 @media all and (max-width:500px){
-    *{
-        overflow: hidden;
-    }
+
     h1{
-        padding-top: 5%;
+        padding-top: -5%;
         padding-bottom: 5%;
         font-size: 25px;
     }
     .wel{
-        margin-top: 7.5%;
+        margin-top: 10.5%;
       
         font-size: 2rem;
     }
     .is{
-        margin-top: 3.5%;
+        margin-top: 7.5%;
  
     }
     h3{
-        margin-top: 6%;
+        margin-top: 7.5%;
   
         width: 325px;
     }
