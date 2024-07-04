@@ -58,19 +58,37 @@ span{
 .newanc {
     color: blue;
 }
-@media all and (max-width:675px){
+.endline {
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.endline h4{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.endline h4{
+    margin-top: 30px;
+}
+@media all and (max-width:550px){
     .end{
         height: 600px;
+        background-image: url(mobbg.jpg);
+        background-size: cover;
     }
     .end h3{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     .end h4{
-        font-size: 1rem;
-        margin-left: 0%;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
     }
     .end h5 {
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 0%;
         font-size: 1rem;
     }
