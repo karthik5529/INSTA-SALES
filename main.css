@@ -134,8 +134,8 @@ h2{
     white-space: nowrap; 
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: typing 10s steps(40, end) 5,
-    blink-caret 1s step-end 5;
+    animation: typing 10s steps(40, end) 3,
+    blink-caret 1s step-end 3;
 }
 
 .followsec {
@@ -159,8 +159,8 @@ h2{
     white-space: nowrap; 
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: typing 10s steps(40, end) 5,
-    blink-caret 1s step-end 5;
+    animation: typing 10s steps(40, end) 3,
+    blink-caret 1s step-end 3;
 }
 
 .commentsec {
@@ -185,8 +185,8 @@ h2{
     white-space: nowrap; 
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: typing 10s steps(40, end) 5,
-    blink-caret 1s step-end 5;
+    animation: typing 10s steps(40, end) 3,
+    blink-caret 1s step-end 3;
 }
 
 @media all and (max-width : 550px) {
@@ -197,8 +197,23 @@ h2{
     .body ul h3 {
         font-size: smaller;
     }
+    .likesec h4 , .followsec h4 , .commentsec h4{
+        font-size: small;
+    }
+    .likesec h3 , .followsec h3 , .commentsec h3{
+        font-size: large;
+    }
+
 }
 
+@media all and (max-width : 400px) {
+    .likesec h4 , .followsec h4 , .commentsec h4{
+        font-size: 10px;
+    }
+    .likesec h3 , .followsec h3 , .commentsec h3{
+        font-size: large;
+    }
+}
 .end{
     background-color: orange;
 }
