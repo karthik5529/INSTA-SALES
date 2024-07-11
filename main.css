@@ -36,6 +36,19 @@ ul a:hover{
     color: orangered;
     transition: 2s;
 }
+ul h3 {
+    animation: blink 5s linear infinite;
+}
+@keyframes blink {
+    0%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 1;
+        transform:rotateX(60deg);
+        transition: 3s;
+    }
+}
 @media all and (max-width : 600px) {
     ul{
         font-size: small;
@@ -93,8 +106,7 @@ h2{
 .likesec{
     background-color: rgb(184, 41, 41);
     border: 3px solid black;
-   
-} 
+}
 .likesec img {
     margin-top: 1%;
 }
@@ -103,10 +115,27 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
 }
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
 .likesec h4{
     font-weight: bolder;
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 10s steps(40, end) 5,
+    blink-caret 1s step-end 5;
 }
 
 .followsec {
@@ -125,6 +154,13 @@ h2{
     font-weight: bolder;
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 10s steps(40, end) 5,
+    blink-caret 1s step-end 5;
 }
 
 .commentsec {
@@ -144,6 +180,13 @@ h2{
     font-weight: bolder;
     font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 10s steps(40, end) 5,
+    blink-caret 1s step-end 5;
 }
 
 @media all and (max-width : 550px) {
@@ -171,4 +214,3 @@ h2{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
 }
-
